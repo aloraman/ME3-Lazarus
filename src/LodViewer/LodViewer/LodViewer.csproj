@@ -101,7 +101,7 @@
       <Name>Gibbed.MassEffect3.FileFormats</Name>
     </ProjectReference>
     <ProjectReference Include="..\LodViewerContent\LodViewerContent.contentproj">
-      <Name>LodViewerContent %28Content%29</Name>
+      <Name>LodViewerContent</Name>
       <XnaReferenceType>Content</XnaReferenceType>
       <Project>{853BD143-2B22-4F16-AA09-AE9982547D88}</Project>
     </ProjectReference>

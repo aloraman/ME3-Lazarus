@@ -17,6 +17,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gibbed.MassEffect2.FileForm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gibbed.Helpers", "src\Gibbed.Helpers\Gibbed.Helpers.csproj", "{5162A9FB-4DE1-4BBF-B7A2-5E8116AB0D26}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1FB1CB9C-E9D5-4AE4-994C-18942ACCA6B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8BD20BB6-9981-45AF-B575-81283DC47151}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +36,16 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AFBB5C3-3131-4A77-BA2E-FBFDADF06019}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{0AFBB5C3-3131-4A77-BA2E-FBFDADF06019}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{0AFBB5C3-3131-4A77-BA2E-FBFDADF06019}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{0AFBB5C3-3131-4A77-BA2E-FBFDADF06019}.Debug|x86.ActiveCfg = Debug|x86
+		{0AFBB5C3-3131-4A77-BA2E-FBFDADF06019}.Debug|x86.Build.0 = Debug|x86
+		{0AFBB5C3-3131-4A77-BA2E-FBFDADF06019}.Release|Any CPU.ActiveCfg = Release|x86
+		{0AFBB5C3-3131-4A77-BA2E-FBFDADF06019}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{0AFBB5C3-3131-4A77-BA2E-FBFDADF06019}.Release|Mixed Platforms.Build.0 = Release|x86
+		{0AFBB5C3-3131-4A77-BA2E-FBFDADF06019}.Release|x86.ActiveCfg = Release|x86
+		{0AFBB5C3-3131-4A77-BA2E-FBFDADF06019}.Release|x86.Build.0 = Release|x86
 		{681DB2CE-E3EB-4110-AC50-F53EACA66E99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{681DB2CE-E3EB-4110-AC50-F53EACA66E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{681DB2CE-E3EB-4110-AC50-F53EACA66E99}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -76,16 +95,6 @@ Global
 		{55DEF11F-FF97-40A9-9DD5-E69F0571E6CD}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{55DEF11F-FF97-40A9-9DD5-E69F0571E6CD}.Release|x86.ActiveCfg = Release|Any CPU
 		{55DEF11F-FF97-40A9-9DD5-E69F0571E6CD}.Release|x86.Build.0 = Release|Any CPU
-		{0AFBB5C3-3131-4A77-BA2E-FBFDADF06019}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{0AFBB5C3-3131-4A77-BA2E-FBFDADF06019}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{0AFBB5C3-3131-4A77-BA2E-FBFDADF06019}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{0AFBB5C3-3131-4A77-BA2E-FBFDADF06019}.Debug|x86.ActiveCfg = Debug|x86
-		{0AFBB5C3-3131-4A77-BA2E-FBFDADF06019}.Debug|x86.Build.0 = Debug|x86
-		{0AFBB5C3-3131-4A77-BA2E-FBFDADF06019}.Release|Any CPU.ActiveCfg = Release|x86
-		{0AFBB5C3-3131-4A77-BA2E-FBFDADF06019}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{0AFBB5C3-3131-4A77-BA2E-FBFDADF06019}.Release|Mixed Platforms.Build.0 = Release|x86
-		{0AFBB5C3-3131-4A77-BA2E-FBFDADF06019}.Release|x86.ActiveCfg = Release|x86
-		{0AFBB5C3-3131-4A77-BA2E-FBFDADF06019}.Release|x86.Build.0 = Release|x86
 		{5162A9FB-4DE1-4BBF-B7A2-5E8116AB0D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5162A9FB-4DE1-4BBF-B7A2-5E8116AB0D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5162A9FB-4DE1-4BBF-B7A2-5E8116AB0D26}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -101,8 +110,17 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0AFBB5C3-3131-4A77-BA2E-FBFDADF06019} = {1FB1CB9C-E9D5-4AE4-994C-18942ACCA6B6}
+		{681DB2CE-E3EB-4110-AC50-F53EACA66E99} = {1FB1CB9C-E9D5-4AE4-994C-18942ACCA6B6}
+		{047857BA-DAA3-4CA7-AFB8-A1B082B28C6A} = {1FB1CB9C-E9D5-4AE4-994C-18942ACCA6B6}
+		{4E3DEEA4-6F5C-4569-929A-BBFE09D64F44} = {1FB1CB9C-E9D5-4AE4-994C-18942ACCA6B6}
+		{853BD143-2B22-4F16-AA09-AE9982547D88} = {1FB1CB9C-E9D5-4AE4-994C-18942ACCA6B6}
+		{55DEF11F-FF97-40A9-9DD5-E69F0571E6CD} = {1FB1CB9C-E9D5-4AE4-994C-18942ACCA6B6}
+		{5162A9FB-4DE1-4BBF-B7A2-5E8116AB0D26} = {1FB1CB9C-E9D5-4AE4-994C-18942ACCA6B6}
+	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		VisualSVNWorkingCopyRoot = .
 		SolutionGuid = {CE8C5E9F-3636-458B-8135-112C2203DF98}
+		VisualSVNWorkingCopyRoot = .
 	EndGlobalSection
 EndGlobal
