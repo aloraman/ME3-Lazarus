@@ -24,6 +24,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
 		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{8B482647-FE4A-48C5-8C54-8353493ACE77}"
+	ProjectSection(SolutionItems) = preProject
+		img\faceeffect.png = img\faceeffect.png
+		img\howtouse1.png = img\howtouse1.png
+		img\howtouse2.png = img\howtouse2.png
 	EndProjectSection
 EndProject
 Global
@@ -120,7 +128,7 @@ Global
 		{5162A9FB-4DE1-4BBF-B7A2-5E8116AB0D26} = {1FB1CB9C-E9D5-4AE4-994C-18942ACCA6B6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {CE8C5E9F-3636-458B-8135-112C2203DF98}
 		VisualSVNWorkingCopyRoot = .
+		SolutionGuid = {CE8C5E9F-3636-458B-8135-112C2203DF98}
 	EndGlobalSection
 EndGlobal
